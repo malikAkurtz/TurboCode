@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++11 -Wall
 TARGET = turbo
 
 # Source files
-SOURCES = interleaver.cpp
+SOURCES = blockInterleaver.cpp utility.cpp
 
 # Object files
 OBJECTS = $(SOURCES:.cpp=.o)
